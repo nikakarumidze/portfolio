@@ -1,3 +1,5 @@
+import koiPrincess from '../assets/KoiPrincess.png';
+import spinwheel from '../assets/spinWheel.png';
 import auth from '../assets/auth.jpg';
 import hex2048 from '../assets/hex_2048.png';
 import spaceTourism from '../assets/Space_Tourism.png';
@@ -19,7 +21,28 @@ interface contentObject {
 
 export const content: contentObject[] = [
   {
-    id: 0,
+    id: 8,
+    name: 'Koi Princess',
+    description:
+      'Slot Koi Princess is a web-based game with 20 bet lines, where players can adjust their bets to their preference and level of risk.The game offers a range of features to enhance the player experience, including an auto play function, a max bet button, and the ability to increment and decrement coin values. The game is fully responsive. One of the standout features of Slot Koi Princess is its use of advanced tweening and easing functions, which result in smooth transitions while the wheel is spinning. This creates an immersive and engaging experience for players.',
+    image: koiPrincess,
+    link: 'https://koiprincess.surge.sh/',
+    githubLink: 'https://github.com/nikakarumidze/Koi-Princess',
+    date: 'April 2023',
+    skills: ['React', 'Typescript', 'PixiJS', 'ReactPixi', 'Redux', 'Redux Toolkit'],
+  },
+  {
+    id: 7,
+    name: 'Spinning wheel',
+    description:
+      'The spinning wheel created by PixiJS and TypeScript is a project that features a carousel-like animation with smooth acceleration and rotation. The wheel consists of a circular array of items that rotate around a central point. Users can interact with the wheel by clicking and dragging, causing it to accelerate and rotate. Customization options include changing the number of items, adjusting speed and easing functions.',
+    image: spinwheel,
+    link: 'https://spinthewheel.surge.sh/',
+    date: 'March 2023',
+    skills: ['Typescript', 'PixiJS', 'Webpack'],
+  },
+  {
+    id: 6,
     name: 'User Authorization Page',
     description:
       'This project is connected to a database. You can test functionality: can register and log in. Routes are protected, and the Token is saved in local storage. REST API is used for requests with the tool Axios, For designing Material UI, for routing React Router DOM, and the validation with the npm package Validator. Also, unnecessary renderings are protected with React lazy function.',
@@ -40,7 +63,7 @@ export const content: contentObject[] = [
     ],
   },
   {
-    id: 1,
+    id: 5,
     name: 'Hexagon 2048',
     description:
       'A game called 2048, but remade as three-dimensional. It was pretty challenging, especially game logic; it involved lots of math and geometry skills. There are six types of movement in this game. I have used Context API for state management and have developed several game levels and animations. For tests, I have used Jest & RTL.',
@@ -62,7 +85,7 @@ export const content: contentObject[] = [
     ],
   },
   {
-    id: 2,
+    id: 4,
     name: 'Space Tourism page',
     description:
       'Mobile-first responsive website on all devices. With four different types of pages. Routing is simple & easy. The most tricky while building this application was design features. I have created a custom  theme for Material UI and made some changes to existing components.',
@@ -70,15 +93,7 @@ export const content: contentObject[] = [
     link: 'https://nikakarumidze.github.io/Space_Tourism/',
     githubLink: 'https://github.com/nikakarumidze/Space_Tourism',
     date: 'December 2022',
-    skills: [
-      'React',
-      'Material UI',
-      'React Router',
-      'Context API',
-      'Javascript',
-      'HTML',
-      'CSS',
-    ],
+    skills: ['React', 'Material UI', 'React Router', 'Context API', 'Javascript', 'HTML', 'CSS'],
   },
   {
     id: 3,
@@ -92,7 +107,7 @@ export const content: contentObject[] = [
     skills: ['React', 'Javascript', 'HTML', 'CSS Modules'],
   },
   {
-    id: 4,
+    id: 2,
     name: 'Weather App',
     description:
       "Features of this app: light/dark modes, celsius/fahrenheit features, saved in local storage. The application gets your location and returns the weather of it in the first place. There are two approaches to get your location: via permission or using another API, which gives the visitor's IP address. Also, you can add or delete the sites, which are also saved in local storage. It demanded to use of various techniques to solve the problem. I have used Cities JSON as API and two types of AccuWeather API for gathering information.",
@@ -100,21 +115,12 @@ export const content: contentObject[] = [
     link: 'https://darling-melba-a7021c.netlify.app/',
     githubLink: 'https://github.com/nikakarumidze/Weather_App',
     date: 'March 2022',
-    skills: [
-      'Javascript',
-      'Bootstrap',
-      'HTML',
-      'SCSS',
-      'Rest API',
-      'fetch',
-      'JSON',
-    ],
+    skills: ['Javascript', 'Bootstrap', 'HTML', 'SCSS', 'Rest API', 'fetch', 'JSON'],
   },
   {
-    id: 5,
+    id: 1,
     name: 'Javascript & jQuery components',
-    description:
-      'Some essential components to create when you are Front-end Developer.',
+    description: 'Some essential components to create when you are Front-end Developer.',
     image: jsJqueryComponents,
     link: 'https://nikakarumidze.github.io/Javascript-jQuery/',
     githubLink: 'https://github.com/nikakarumidze/Javascript-jQuery',
@@ -122,7 +128,7 @@ export const content: contentObject[] = [
     skills: ['Javascript', 'jQuery', 'HTML', 'CSS', 'JSON'],
   },
   {
-    id: 6,
+    id: 0,
     name: 'Restaurant Website',
     description:
       'Simple responsive restaurant menu website, with several pages. FlexBox and Grid Technologies have been used.',

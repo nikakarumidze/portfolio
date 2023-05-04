@@ -29,7 +29,7 @@ const Portfolio = () => {
             >
               {element.name}
             </Typography>
-            <Typography mb={2} px={2}>
+            <Typography mb={2} px={2} sx={{ lineHeight: 1.7 }}>
               {element.description}
             </Typography>
             <Stack
@@ -111,30 +111,15 @@ const Portfolio = () => {
             ))}
           </Grid>
         </Grid>
-        <Grid
-          container
-          item
-          xs={12}
-          md={6}
-          justifyContent='center'
-          alignItems='center'
-        >
-          <CardMedia
-            component='img'
-            image={element.image}
-            sx={{ opacity: 0.8 }}
-          />
+        <Grid container item xs={12} md={6} justifyContent='center' alignItems='center'>
+          <CardMedia component='img' image={element.image} sx={{ opacity: 0.8 }} />
         </Grid>
       </Grid>
     </Box>
   ));
   return (
     <Box display='flex' flexDirection='column' alignItems='center'>
-      <Typography
-        variant='h3'
-        component='h2'
-        sx={{ color: 'white', letterSpacing: 1.6 }}
-      >
+      <Typography variant='h3' component='h2' sx={{ color: 'white', letterSpacing: 1.6 }}>
         Portfolio
       </Typography>
       <Box>{contentUI}</Box>

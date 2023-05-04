@@ -20,20 +20,18 @@ const About = () => {
     'axios',
     'Context API',
     'Redux',
+    'Redux Toolkit',
     'styled Components',
-    'CSS Modules',
     'Material UI',
     'Jest & React Testing Library',
+    'Babylon.js',
+    'PixiJS',
+    'ReactPixi',
     'Data Structures & Algorithms',
   ];
   return (
     <>
-      <Typography
-        variant='h3'
-        component='h2'
-        textAlign='center'
-        sx={{ color: 'white', mb: 2 }}
-      >
+      <Typography variant='h3' component='h2' textAlign='center' sx={{ color: 'white', mb: 2 }}>
         About Me
       </Typography>
       <Divider sx={{ backgroundColor: '#808080', mb: 4 }} />
@@ -42,15 +40,14 @@ const About = () => {
           <Grid container justifyContent='space-around' sx={{ height: '100%' }}>
             <Grid item>
               <Typography variant='h6' sx={{ color: 'white' }}>
-                Hello, I am Nika. I started my journey into the Front-end field
-                more than a year ago. Before that, I was studying Business
-                Administration, but after taking a closer look into programming,
-                I have found myself in it.
+                Hello, I am Nika. I started my journey into the Front-end field more than a year
+                ago. Before that, I was studying Business Administration, but after taking a closer
+                look into programming, I have found myself in it.
               </Typography>
               <br />
               <Typography variant='h6' sx={{ color: 'white' }}>
-                My primary interests are creating Front-end applications with
-                React / Typescript and solving algorithms sometimes.
+                My primary interests are creating Front-end applications with React / Typescript,
+                Web Game development and solving algorithms sometimes.
               </Typography>
             </Grid>
             <Grid item sx={{ my: { xs: 4, md: 0 } }}>
@@ -85,11 +82,7 @@ const About = () => {
         </Grid>
       </Grid>
       <Divider sx={{ backgroundColor: '#808080', my: 2 }} />
-      <Typography
-        variant='h4'
-        component='h3'
-        sx={{ my: 2, mx: 1, color: 'white' }}
-      >
+      <Typography variant='h4' component='h3' sx={{ my: 2, mx: 1, color: 'white' }}>
         Primary Skillset:
       </Typography>
       <Grid container justifyContent='space-evenly' mx={1}>
