@@ -1,4 +1,5 @@
 import koiPrincess from '../assets/KoiPrincess.png';
+import TeleportRunner from '../assets/TeleportRunner.png';
 import spinwheel from '../assets/spinWheel.png';
 import auth from '../assets/auth.jpg';
 import hex2048 from '../assets/hex_2048.png';
@@ -21,7 +22,7 @@ interface contentObject {
 
 export const content: contentObject[] = [
   {
-    id: 8,
+    id: 9,
     name: 'Koi Princess',
     description:
       'Slot Koi Princess is a web-based game with 20 bet lines, where players can adjust their bets to their preference and level of risk.The game offers a range of features to enhance the player experience, including an auto play function, a max bet button, and the ability to increment and decrement coin values. The game is fully responsive. One of the standout features of Slot Koi Princess is its use of advanced tweening and easing functions, which result in smooth transitions while the wheel is spinning. This creates an immersive and engaging experience for players.',
@@ -30,6 +31,16 @@ export const content: contentObject[] = [
     githubLink: 'https://github.com/nikakarumidze/Koi-Princess',
     date: 'April 2023',
     skills: ['React', 'Typescript', 'PixiJS', 'ReactPixi', 'Redux', 'Redux Toolkit'],
+  },
+  {
+    id: 8,
+    name: 'Teleport Runner Demo',
+    description:
+      'This game demo created with Babylon.js allows players to explore a virtual world with a range of movement options. Players can move using the W A S D keys, and can teleport to a new location by holding down the Space key for 2 seconds. The left Shift key can be used to temporarily rotate the camera, while NumpadSubtract and NumpadAdd can be used to zoom in and out. Players can pick up boxes to gain a running skill for a limited time. The game demo is designed to provide an engaging and challenging experience for players who enjoy exploring virtual environments.',
+    image: TeleportRunner,
+    link: 'http://3d-maze-world.surge.sh/',
+    date: 'March 2023',
+    skills: ['BabylonJS', 'Typescript', 'Webpack'],
   },
   {
     id: 7,
@@ -45,7 +56,7 @@ export const content: contentObject[] = [
     id: 6,
     name: 'User Authorization Page',
     description:
-      'This project is connected to a database. You can test functionality: can register and log in. Routes are protected, and the Token is saved in local storage. REST API is used for requests with the tool Axios, For designing Material UI, for routing React Router DOM, and the validation with the npm package Validator. Also, unnecessary renderings are protected with React lazy function.',
+      'This website project includes various features such as user registration and login functionality, protected routes, and token storage in local storage. The website uses REST API with Axios for backend communication, Material UI for design, React Router DOM for routing, and Validator for user input validation. We have also incorporated React lazy function to minimize unnecessary renderings and improve performance. Overall, this website offers a seamless and secure user experience.',
     image: auth,
     link: 'https://auth-nest.surge.sh/',
     githubLink: 'https://github.com/nikakarumidze/Auth',
@@ -66,7 +77,7 @@ export const content: contentObject[] = [
     id: 5,
     name: 'Hexagon 2048',
     description:
-      'A game called 2048, but remade as three-dimensional. It was pretty challenging, especially game logic; it involved lots of math and geometry skills. There are six types of movement in this game. I have used Context API for state management and have developed several game levels and animations. For tests, I have used Jest & RTL.',
+      'This website features a unique twist on the classic game 2048 - a three-dimensional version that requires advanced math and geometry skills to master. With six types of movement and challenging game logic, players will enjoy a new level of difficulty. The website also showcases state-of-the-art technology such as Context API for state management, as well as multiple game levels and animations for added excitement. Rigorous testing using Jest & RTL ensures a seamless user experience.',
     image: hex2048,
     link: 'https://ezdnaormous-kneelxd.surge.sh/',
     date: 'December 2022',
@@ -88,7 +99,7 @@ export const content: contentObject[] = [
     id: 4,
     name: 'Space Tourism page',
     description:
-      'Mobile-first responsive website on all devices. With four different types of pages. Routing is simple & easy. The most tricky while building this application was design features. I have created a custom  theme for Material UI and made some changes to existing components.',
+      'This mobile-first website boasts a fully responsive design and simple navigation with four page types. The custom Material UI theme and component modifications provide a sleek and modern aesthetic. Built to ensure optimal usability on all devices, this website offers an exceptional user experience. Designed to be informative and intuitive.',
     image: spaceTourism,
     link: 'https://nikakarumidze.github.io/Space_Tourism/',
     githubLink: 'https://github.com/nikakarumidze/Space_Tourism',
@@ -99,7 +110,7 @@ export const content: contentObject[] = [
     id: 3,
     name: 'User Form Project',
     description:
-      'My one of the first project built with react. Basic user form project, with modals.',
+      'This website showcases one of my first projects built with React - a user form application that includes modals. While it may be a basic project, it served as a valuable introduction to React and allowed me to hone my skills with this popular framework.',
     image: userForm,
     link: 'https://nikakarumidze.github.io/User-form-project-React/',
     githubLink: 'https://github.com/nikakarumidze/User-form-project-React',
@@ -110,7 +121,7 @@ export const content: contentObject[] = [
     id: 2,
     name: 'Weather App',
     description:
-      "Features of this app: light/dark modes, celsius/fahrenheit features, saved in local storage. The application gets your location and returns the weather of it in the first place. There are two approaches to get your location: via permission or using another API, which gives the visitor's IP address. Also, you can add or delete the sites, which are also saved in local storage. It demanded to use of various techniques to solve the problem. I have used Cities JSON as API and two types of AccuWeather API for gathering information.",
+      'This user-friendly weather app offers practical features like light/dark modes, celsius/fahrenheit conversion, and local storage saving. It automatically retrieves location information, using either permission or another API, and users can add or remove locations as needed. Built using advanced techniques and APIs like Cities JSON and AccuWeather, this app is a reliable resource for staying informed and prepared.',
     image: weatherApp,
     link: 'https://darling-melba-a7021c.netlify.app/',
     githubLink: 'https://github.com/nikakarumidze/Weather_App',
@@ -120,7 +131,8 @@ export const content: contentObject[] = [
   {
     id: 1,
     name: 'Javascript & jQuery components',
-    description: 'Some essential components to create when you are Front-end Developer.',
+    description:
+      'This website demonstrates how to build essential front-end components using JavaScript and jQuery, including interactive buttons, accordions.',
     image: jsJqueryComponents,
     link: 'https://nikakarumidze.github.io/Javascript-jQuery/',
     githubLink: 'https://github.com/nikakarumidze/Javascript-jQuery',
@@ -131,7 +143,7 @@ export const content: contentObject[] = [
     id: 0,
     name: 'Restaurant Website',
     description:
-      'Simple responsive restaurant menu website, with several pages. FlexBox and Grid Technologies have been used.',
+      'This responsive restaurant menu website uses FlexBox and Grid technologies to create an elegant and user-friendly layout across multiple pages.',
     image: restaurantMenu,
     link: 'https://nikakarumidze.github.io/Site-Menu/',
     githubLink: 'https://github.com/nikakarumidze/Site-Menu',
